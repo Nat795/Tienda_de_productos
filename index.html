@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <div  class="loader">
+      
+    </div>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=DOCTYPE, initial-scale=1.0">
-    <title>Bienvenido a tienda virtual</title>
+    <title>Bienvenido a tienda virtual MISURU</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- usar "col-sm-10 offset-sm-1 card text-center"-->
 </head>
 <body>
-    <div class="container-fluid p-5 bg-primary text-white text-center">
-        <h1>My First Bootstrap Page</h1>
-        <p>Resize this responsive page to see the effect!</p> 
-      </div>
-        
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Almacen  </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Higuiene </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Cosmeticos</h3>        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-        </div>
-      </div>
+    <div class="container">
+        <h1>MISURU </h1>
+        <p> tienda online</p>
+    </div>    
+
+    <!-- Navegador -->
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" data-bs-toggle="pill" href="index.html">home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="view/productos.html">productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="view/contacto.html">contacto</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane container active" id="home"></div>
+      <div class="tab-pane container fade" id="productos.html"></div>
+      <div class="tab-pane container fade" id="contacto.html"></div>
+    </div>
+  
 </body>
+
+<footer>
+  <div class="pie-de-pag">
+    <div class="contenido-pie-pag">
+
+
+    </div>
+  </div>
+</footer>
+
 </html>
