@@ -9,7 +9,17 @@
 
   
 }*/
-.container{
-  color: #484499;
+body{
+  background-image: url(plantilla-animales.jpg);
+}
+.titulo-marca{
   text-align: center;
+  background-color: #484499;
+}
+#titulo{
+  color: white;
+  font-size: 30px;
+}
+h1{
+  font-family: "nanum-gotic";
 }
