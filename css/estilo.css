@@ -10,7 +10,7 @@
   
 }*/
 body{
-  background-image: url(plantilla-animales.jpg);
+  background-image: url("../plantilla-animales.jpg");
 }
 .titulo-marca{
   text-align: center;

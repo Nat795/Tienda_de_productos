@@ -1,55 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <div  class="loader">
-      
-    </div>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=DOCTYPE, initial-scale=1.0">
-    <title>Bienvenido a tienda virtual MISURU</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
-
-    <!-- usar "col-sm-10 offset-sm-1 card text-center"-->
+  <meta charset="UTF-8" name="viewport">
+  <title>Bienvenido a tienda virtual MISURU</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+</head>
 <body>
-    <div class=".container-fluid text-center" id="titulo-nombre-marca" >
-      <div class="titulo-marca" id="titulo">
-        <h1>MISURU </h1>
-        <p> tienda online</p></h1>
+  <div class="container-fluid text-center" id="titulo-nombre-marca" >
+    <div class="titulo-marca" id="titulo">
+      <h1>MISURU</h1>
+      <p>tienda online</p>
+    </div>
+  </div>    
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="nav nav-pills">
+        <a class="navbar-brand" href="index.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="view/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="view/contacto.html">Contacto</a>
+            </li>  
+          </ul>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
       </div>
-    </div>    
-
-    <!-- Navegador -->
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html">home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="view/productos.html">productos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="view/contacto.html">contacto</a>
-      </li>
-    </ul>
-
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div class="tab-pane container active" id="home"></div>
-      <div class="tab-pane container fade" id="productos"></div>
-      <div class="tab-pane container fade" id="contacto"></div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
     </div>
-  
-</body>
-
-<footer>
-  <div class="pie-de-pag">
-    <div class="contenido-pie-pag">
-
-
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</footer>
-
+  <footer>
+    <div class="pie-de-pag">
+      <div class="contenido-pie-pag">
+  
+  
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
