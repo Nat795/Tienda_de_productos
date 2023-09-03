@@ -1,16 +1,5 @@
-
-/*@keyframes loader{
-    0%{
-      transform: translate(-50%, -50%) rotate(0deg);
-    }
-    100%{
-      transform: translate(-50%, -50%) rotate(360deg);
-    }
-
-  
-}*/
 body{
-  background-image: url("../plantilla-animales.jpg");
+  background-color:#E5E5E5;
 }
 .titulo-marca{
   text-align: center;
