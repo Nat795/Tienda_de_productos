@@ -12,3 +12,8 @@ body{
 h1{
   font-family: "nanum-gotic";
 }
+#cadena{
+  background-color: blue;
+  text-align: center;
+  text-decoration: tomato;
+}
